@@ -1,0 +1,473 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #001466;
+}
+
+header {
+    background-color: #001466;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo-container {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.logo img {
+    width: 55px;
+    height: auto;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+
+nav ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    list-style-type: none;
+    margin-bottom: 0%;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #5964ff;
+}
+
+
+.home {
+    position: relative;
+    text-align: center;
+
+}
+
+.home img {
+    width: 100%;
+    height: 600px;
+    opacity: 0.8;
+    object-fit: cover;
+}
+
+.home-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 254, 254);
+
+}
+
+.home-content h1 {
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.923);
+}
+
+.home-content p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.794);
+}
+
+
+/* Hero buttons positioned at the bottom of the hero section */
+.home-buttons {
+    position: absolute;
+    top: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cta-button {
+    display: inline-flexbox;
+    padding: 10px 20px;
+    background-color: #2244cc;
+    color: #ffffff;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6%;
+    transition: background-color 0.3s;
+    justify-content: space-between;
+}
+
+.cta-button:hover {
+    background-color: #061e7e;
+}
+
+
+.contact-location {
+    background-color: #001466;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.contact-info,
+.location-info {
+    flex: 1;
+    padding: 30px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-weight: 300;
+}
+
+.contact-info h2,
+.location-info h2 {
+    font-size: 30px;
+    margin: 0%;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+hr {
+    margin-top: 0%;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+.footer p {
+    background-color: #001466;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+}
+
+/*About us styling*/
+.about {
+    background-color: #ffffff;
+}
+
+.about img {
+    width: 100%;
+    height: 400px;
+    opacity: 0.9;
+    object-fit: fill;
+
+}
+
+.about-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 254, 254);
+
+}
+
+
+.about-content h1 {
+    font-size: 70px;
+    margin-top: 50%;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.about-content p {
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    margin-bottom: 20px;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.about-twocontent h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0%;
+
+}
+
+.about-twocontent p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+    margin-left: 10;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0.1px;
+    margin-top: 0%;
+
+}
+
+#about-hr {
+    margin: 0%;
+    padding: 0%;
+    color: #001466;
+
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #384fe4;
+}
+
+
+a:visited {
+    color: #ffffff;
+}
+
+
+a:active {
+    color: #3945ee;
+}
+
+
+
+/*PRACTICE AREAS STYLING*/
+.practice {
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+}
+
+.practice img {
+    width: 100%;
+    height: 400px;
+    opacity: 1;
+    object-fit: fill;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+}
+
+.practice-content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 254, 254);
+    margin-top: 0%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.99);
+}
+
+
+.practice-content h1 {
+    font-size: 70px;
+    margin-top: 20%;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0)9 5 1;
+
+}
+
+.practice-content p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.practice-area h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    color: #000000;
+}
+
+
+.practice-area p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10px 20px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Team styling*/
+.team {
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 0%;
+}
+
+.team img {
+    width: 100%;
+    height: 400px;
+    opacity: 0.9;
+    object-fit: fill;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.team-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 254, 254);
+}
+
+.team-content h1 {
+    font-size: 70px;
+    margin-top: 40%;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.961);
+}
+
+.team-content p {
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    margin-bottom: 20px;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.941);
+    text-align: center;
+}
+
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+
+}
+
+.team-member p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin: 10px 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+
+.contact {
+    background-color: #001466;
+}
+
+.contact img {
+    width: 100%;
+    height: 400px;
+    opacity: 0.9;
+    object-fit: fill;
+
+}
+
+.contact-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 254, 254);
+}
+
+
+.contact-content h1 {
+    font-size: 70px;
+    margin-top: 40%;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.contact-content p {
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    margin-bottom: 20px;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-align: center;
+}
